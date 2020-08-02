@@ -1,0 +1,194 @@
+a,
+#home-slider .caption h1 span, 
+#twitter-carousel .item span, 
+#footer .footer-bottom, 
+#single-portfolio .close-folio-item:hover, 
+.single-table.featured .btn.btn-primary, 
+.contact-info ul li a:hover, 
+#footer .footer-bottom a  {
+  color: #6a84bd;
+}
+.scroll:hover{
+	background-color: #7EC8E3;
+}
+.service-icon.hover,
+
+#color:hover,
+.btn.btn-primary:hover,
+.btn-submit:hover {
+  background-color: #7EC8E3;
+}
+
+a:hover, a:focus {
+	color: #6a84bd;
+}
+
+.main-nav, 
+.service-icon, 
+.progress-bar.progress-bar-primary, 
+.single-table.featured, 
+.btn.btn-primary, 
+.twitter-icon .fa-twitter, 
+.twitter-left-control:hover, .twitter-right-control:hover, 
+.post-icon, 
+.entry-header .date:after, 
+.btn-loadmore:hover, 
+.btn-submit,
+#footer, 
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover, 
+.folio-overview a:hover {
+  background-color:#6a84bd;
+}
+
+.twitter-left-control:hover, 
+.twitter-right-control:hover, 
+.btn-loadmore:hover  {
+	border: 1px solid #6a84bd;
+}
+
+.caption .btn-start:hover, 
+.left-control:hover, 
+.right-control:hover {
+	border-color: #6a84bd;
+}
+
+.twitter-icon .fa-twitter:after {
+	border-color: #dd4814ff transparent transparent;
+}
+
+.footer {
+  background: #6a84bd;
+  padding: 80px 0px;
+  color: #FFF;
+}
+
+.footer ul{
+  padding: 0px;    
+}
+
+.footer ul li {
+  margin: 10px;
+}
+
+.footer ul li a {
+  color: #FFF;
+  text-decoration:none;
+}
+
+.footer span {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+.footer .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer .icons .fa {
+  font-size: 30px;
+  padding: 10px;
+  color: #7EC8E3;
+}
+
+.word_section span{font-size:30px;font-weight:bold;}
+.m1{animation:mk1 500ms linear infinite alternate;}
+.m2{animation:mk2 500ms linear infinite alternate;}
+.word_section{animation:mk22 700ms linear infinite alternate-reverse;}
+@keyframes mk1{
+    from{color:#fff;}
+    to{color:#fff;}
+}
+@keyframes mk2{
+    from{color: #fff;}
+    to{color:#fff;}
+}
+@keyframes mk22{
+    from{letter-spacing:2px;border-bottom:5px dotted #666;}
+    to{letter-spacing:0px;border-bottom:5px dotted#666;}
+}
+@media only screen and (max-width:767px){
+   .word_section span{font-size:25px;font-weight:bold;} 
+    
+}
+
+
+
+.word_section span{font-size:30px;font-weight:bold;}
+.m3{animation:mk3 500ms linear infinite alternate;}
+.m4{animation:mk4 500ms linear infinite alternate;}
+
+@keyframes mk3{
+    from{color:#fffdfd;}
+    to{color:#fffdfd;}
+}
+@keyframes mk4{
+    from{color:#fffdfd;}
+    to{color:#fffdfd;}
+}
+
+@media only screen and (max-width:767px){
+   .word_section span{font-size:25px;font-weight:bold;} 
+    
+}
+
+
+
+.nombre h1
+{
+    position: relative;
+    font-size: 40px;
+    color:#fff;
+    text-transform: uppercase;
+
+    letter-spacing: 0.05em;
+	line-height: 1.2em;
+	text-align: center;
+	font-weight:bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+.nombre h1:before
+{
+	content: attr(data-text);
+	
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+	color: #000000;
+    overflow: hidden;
+    border-bottom: 10px solid  #fff;
+	animation: animates 5s linear infinite;
+	content: inline;
+	background-color:#fff ;
+	font-weight:bold;
+	font-family: 'Oswald', sans-serif;
+
+
+}
+@keyframes animates
+{
+    0%
+    {
+        width: 0;
+    }
+    100%
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
